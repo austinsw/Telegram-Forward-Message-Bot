@@ -138,7 +138,7 @@ dispatcher.add_handler(delAll_handler)
 def help(update, context):
     for admin in admins:
         if admin == update.effective_chat.id or admin == update.effective_chat.username:
-            message = "/add [id/usernames] \n/rm [id/usernames] \n/list \n/delAll"
+            message = "/add {id/usernames} \n/rm {id/usernames} \n/list \n/delAll"
             context.bot.send_message(chat_id=update.effective_chat.id, text=message)
             return
     #context.bot.send_message(chat_id=update.effective_chat.id, text="You are not authorized.")
