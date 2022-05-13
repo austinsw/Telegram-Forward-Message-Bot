@@ -30,6 +30,6 @@ Telegram user / group chat id can be checked by Nicegram or by other means.
 ## forward_v1.py
 Old version
 
-If the teletho package is not already installed, run the code to install the package: `pip install telethon`
+If the telethon package is not already installed, run the code to install the package: `pip install telethon`
 
 **API_ID** and **API_HASH** values can be retrieved from https://my.telegram.org.
