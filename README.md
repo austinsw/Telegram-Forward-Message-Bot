@@ -1,5 +1,5 @@
 # Telegram Forward Message Bot
-A Telegram bot for forwarding specific users' messages to a desginated channel, made in 2021
+A Telegram bot for forwarding specific users' messages to a designated channel, made in 2021
 
 ## Run
 The code is run on Python 3. If Python 3 is not your default interpreter (say Python 2.7), you will probably need `pip3 install`, and `python3` command to install the packages and run the .py file.
