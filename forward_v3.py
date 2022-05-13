@@ -4,9 +4,9 @@ import telegram
 import logging
 
 admins = [1231234567,1231234560]  # id or username
-targets = [1779163462]  # id or username
+targets = [1239876543]  # id or username
 targetGroup = "targetChannel"   ##### 1. username (case-sensitive) or id
-receiver = -1001271527516       ##### 2. only id
+receiver = -1002101555321       ##### 2. only id
 telegram_token = "1234567890:BOttoKeN"   ##### 3. bot token
 
 def listToFile(fileName, ls):
