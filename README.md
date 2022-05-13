@@ -19,7 +19,7 @@ In the code...
 ### Commands in Telegram
 For ease of use, Telegram is used as an interface to interact with the code, by sending commands to the bot. And only the admins registered in ***admins.txt*** can use these commands:
 - `/add {id/usernames}` Adding new people to ***targets.txt***. When adding multiple targets, a space bar ` ` between targets will do, e.g. `/add Amy123 123124534 Peter321`. 
-- `/rm {id/usernames}` Removing that usersname (id) from ***targets.txt***.
+- `/rm {id/usernames}` Removing that usersname (id) from ***targets.txt***. This supports removing multiplt targets too.
 - `/list` Listing our every target's usersname (id)
 - `/delAll` Erase everything on ***targets.txt***. Would recommend using the `/list` to keep a back up of the personnels first.
 - `/help` Listing out the above 4 commands
