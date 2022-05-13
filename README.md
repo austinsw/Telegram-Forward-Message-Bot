@@ -7,6 +7,7 @@ The code is run on Python 3. If Python 3 is not your default interpreter (say Py
 `python forward_v3.py` to run the file: It was originally created on PyCharm, but can be put on a virtual machine, say Google Cloud for 24/7 usesage.
 
 ## forward_v3.py
+Newest version
 
 Although `admins` and `targets` variables are pre-defined in the code, the admins and targets details are actually stored in ***admins.txt*** and ***targets.txt***. If you wish to add or remove admins, make the changes on ***admins.txt***. Although you can make the changes on ***targets.txt*** manually as well, it is not advised as you can change the target details through Telegram...(see below)
 
@@ -27,7 +28,8 @@ For ease of use, Telegram is used as an interface to interact with the code, by 
 Telegram user / group chat id can be checked by Nicegram or by other means.
 
 ## forward_v1.py
+Old version
 
-It is the version 1 of the code, uses the telethon package. If the package is not already installed, run the code to install the package: `pip install telethon`
+If the teletho package is not already installed, run the code to install the package: `pip install telethon`
 
 **API_ID** and **API_HASH** values can be retrieved from https://my.telegram.org.
